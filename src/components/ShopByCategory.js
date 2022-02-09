@@ -12,19 +12,19 @@ function ShopByCategory() {
       </div>
 
       <div className="flex  w-[1000px] space-x-3 h-[50px] py-2 text-sm">
-        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm">
+        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm transition ">
           Dogs
         </button>
-        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm">
+        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm transition">
           Cats
         </button>
-        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm">
+        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm transition">
           Fish
         </button>
-        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm">
+        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm transition">
           Hamster
         </button>
-        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm">
+        <button className="px-10 py-1 bg-yellow-200 text-black font-semibold hover:bg-black hover:text-white rounded-sm transition">
           Birds
         </button>{" "}
       </div>
