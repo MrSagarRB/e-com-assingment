@@ -16,8 +16,8 @@ function ShopByPet() {
         })}
       </div>
 
-      <div className="w-[1000px] flex justify-center items-center h-[140px] bg-gray-400 ">
-        <h1 className="text-2xl text-white"> BANNER SPACE</h1>
+      <div className="w-[1000px] flex justify-center items-center h-[141px] bg-gray-400 ">
+        <h1 className="text-2xl text-white">  BANNER SPACE</h1>
       </div>
     </div>
   );
