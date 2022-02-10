@@ -70,7 +70,7 @@ function Header() {
       </div>
       <div className="px-24 py-1">
         <p className="text-xs text-gray-500">
-          Home- <span className="text-black">Shop</span>
+          Home {">"} <span className="text-black">Shop</span>
         </p>
       </div>
     </div>
