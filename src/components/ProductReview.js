@@ -13,14 +13,14 @@ function ProductReview() {
             Watch and Learn About diffrent products
           </p>
         </div>{" "}
-        <button className="bg-yellow-300 px-4 py-1 rounded-xl  text-white font-semibold hover:bg-black hover:text-white transition">
+        <button className="btn2 yab">
           View All
         </button>{" "}
       </div>
       <div className="py-10 w-[1000px] px-1 flex flex-row whitespace-nowrap overflow-x-auto  no-scrollbar   gap-5 ">
         {ReviewData.map((items) => {
           return (
-            <div className="h-[160px] w-[200px] text-center border-[1px] shadow-md">
+            <div className="h-[160px] w-[200px] text-center border-[1px] shadow-md transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
               <img className="" src={items.videoUrl} />
               <div className="">
               <p className="font-bold text-md  my-custom-style "> How to dewrom your <br/> puppy in fist year</p>

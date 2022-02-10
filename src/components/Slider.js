@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import ArrowLeftIcon from "@material-ui/icons/ArrowLeft";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 
 
 function Slider() {
+  
+
+
+
+
   return (
     <div>
       <div className="h-[403px] bg-red-400 flex flex-col justify-center">

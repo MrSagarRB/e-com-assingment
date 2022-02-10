@@ -2,3 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+.bnw:hover{
+    background-color: white;
+    color: black;
+}
+.yab:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+@layer base {
+    .btn1 {
+      @apply bg-transparent;
+      @apply border-[1px];
+      @apply py-3;
+      @apply rounded-3xl;
+      @apply font-bold;
+      @apply text-sm;
+      @apply transition;
+      @apply  duration-700;
+   
+    }
+    
+  }
+
+  @layer base {
+    .btn2 {
+      @apply bg-yellow-300;
+      @apply px-4;
+      @apply py-1;
+      @apply rounded-3xl;
+      @apply  rounded-xl;
+      @apply text-white;
+      @apply font-semibold;
+      @apply transition;
+      @apply duration-700;
+   
+    }
+    
+  }
+
+
+

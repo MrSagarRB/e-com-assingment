@@ -9,7 +9,7 @@ export default [
         id:1,
         title:"Same Day Delivery",
         describtion:"Dellhi & 4 more cites",
-        icon:<LocalShippingIcon className='text-black'/> 
+        icon:<LocalShippingIcon fontSize="large" className='text-black'/> 
         
 
     },
@@ -17,28 +17,28 @@ export default [
         id:2,
         title:"Upto 50% off on",
         describtion:"Pet Products",
-        icon:<StarsIcon  className='text-black'/>
+        icon:<StarsIcon fontSize="large" className='text-black'/>
         
     },
     {
         id:3,
         title:"Best Price",
         describtion:"Guaranteed",
-        icon:<LocalOfferIcon className='text-black'/>
+        icon:<LocalOfferIcon fontSize="large" className='text-black'/>
         
     },
     {
         id:4,
         title:"Shop with Us",
         describtion:"and Earn Rewards",
-        icon:<RedeemIcon className='text-black'/>
+        icon:<RedeemIcon fontSize="large" className='text-black'/>
         
     },
     {
         id:5,
         title:"We are There for",
         describtion:"You Always",
-        icon:<HeadsetMicIcon className='text-black'/>
+        icon:<HeadsetMicIcon fontSize="large" className='text-black'/>
         
     },
 

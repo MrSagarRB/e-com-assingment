@@ -15,8 +15,8 @@ export default function TopBrand() {
         <div class="grid grid-cols-6 gap-4 justify-center items-center py-5 px-2">
           {TopBrandsData.map((items) => {
             return (
-              <div className="flex flex-col justify-center items-center border-2 p-5">
-                <img className="h-22" src={items.imgUrl} />{" "}
+              <div className="flex flex-col justify-center items-center border-2 p-5 transform hover:scale-125 transition duration-500 ease-in-out cursor-pointer">
+                <img className="max-h-10 " src={items.imgUrl} />{" "}
               </div>
             );
           })}

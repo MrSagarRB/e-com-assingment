@@ -4,7 +4,7 @@ function TailsBudyForm() {
   return (
     <div className="w-full bg-black h-[390px] text-white flex  justify-center flex-col items-center mt-5">
 
-      <div className="flex flex-row">
+      <div className="flex flex-row hover:cursor-pointer">
         <div>
           <div className="border-b-[1px] py-3">
             {" "}
@@ -48,10 +48,10 @@ function TailsBudyForm() {
             luctus. Paesentet lacinia ante.
           </p>
           <div className="flex flex-col space-y-4">
-            <button className="bg-transparent border-[1px] py-3 rounded-3xl font-bold text-sm">
+            <button className=" btn1 bnw ">
               Sign up
             </button>
-            <button className="bg-transparent border-[1px] py-3 rounded-3xl  font-bold  text-sm">
+            <button className="btn1 bnw transition duration-1000">
               Download App
             </button>
           </div>

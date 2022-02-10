@@ -5,43 +5,43 @@ export default [
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"https://cryptologos.cc/logos/internet-computer-icp-logo.png"
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"https://1000logos.net/wp-content/uploads/2020/04/Google-Pay-Logo.png"
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"https://www.logosvgpng.com/wp-content/uploads/2021/08/jbs-foods-logo-vector.png"
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"https://searchvectorlogo.com/wp-content/uploads/2019/08/slow-food-logo-vector.png"
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"https://logovtor.com/wp-content/uploads/2020/08/ifs-food-logo-vector.png"
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHt6tK-VJhrHQfnxOYVLeto2zsJ4UoOQzeRA&usqp=CAU"
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"https://download.logo.wine/logo/Cargill/Cargill-Logo.wine.png"
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"https://www.logolynx.com/images/logolynx/52/527fd56103d36b2a03961c24255c62be.png"
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"http://assets.stickpng.com/thumbs/60290de66251e50004e5f1f2.png"
     },
     {
         id:1,
-        imgUrl:"https://lh3.googleusercontent.com/XTGEgnlIsgOCsKAtiQhl08JW1pWKwxY3sxU4FvFFFkAjsWwbIRVX8I8KBNr2amX1C1TdvXhA48oIR-7WGCUJoUOh9eWHgg=s750"
+        imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzehd1h4MRVyl-AT-KRjfH_czQHgLGCQks0g&usqp=CAU"
     },
     {
         id:1,

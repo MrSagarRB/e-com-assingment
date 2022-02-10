@@ -30,14 +30,11 @@ function ShopByCategory() {
       </div>
 
       <div className="h-[400px] w-[1000px]  ">
-        <div class="grid grid-cols-6 gap-4 justify-center items-center py-5 px-2">
+        <div class="grid grid-cols-6 gap-6 justify-center items-center py-5 px-2">
           {dogFoodData.map((items) => {
             return (
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  className="h-32 w-32 rounded-full "
-                  src={items.imgUrl}
-                />{" "}
+              <div className="flex flex-col justify-center items-center transform hover:scale-125 transition duration-500 ease-in-out">
+                <img className="h-32 w-32 rounded-full hover:cursor-pointer " src={items.imgUrl} />{" "}
                 <h1 className="font-semibold"> Dog Food</h1>
               </div>
             );

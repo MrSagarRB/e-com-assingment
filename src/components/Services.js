@@ -10,7 +10,7 @@ function Services() {
 {
    Data.map((items)=>{
        return(
-        <div className='text-white flex items-center gap-3 px-1 border-r'> 
+        <div className='text-white flex items-center gap-3 px-1 border-r cursor-pointer'> 
 
         <div className='flex items-center bg-yellow-400 p-3 rounded-full '>
            {items.icon}

@@ -15,23 +15,23 @@ function Header() {
           <LanguageIcon />
           <div className="flex flex-row justify-center items-center ml-2">
             {" "}
-            <h1 className="flex flex-row justify-center items-center font-bold">
+            <h1 className="flex flex-row justify-center items-center font-bold cursor-pointer">
               Delhi <ArrowDropDownIcon fontSize="large" />{" "}
             </h1>{" "}
           </div>
         </div>
 
         <div className="flex flex-row items-center">
-          <div className="space-x-10 flex flex-row items-center justify-center">
+          <div className="space-x-10 flex flex-row items-center justify-center cursor-pointer">
             {" "}
-            <FacebookIcon />
-            <InstagramIcon />
-            <YouTubeIcon className="text-red-600" />
+            <FacebookIcon className="hover:animate-bounce"/>
+            <InstagramIcon className="hover:animate-bounce"/>
+            <YouTubeIcon className="text-red-600 hover:animate-bounce" />
           </div>
 
           <div className="ml-20">
             {" "}
-            <p className="uppercase hover:cursor-pointer ">Login</p>{" "}
+            <p className="uppercase hover:cursor-pointer hover:text-blue-500  ">Login</p>{" "}
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ function Header() {
       <div className="bg-yellow-400 text-white w-full h-[68px] flex flex-row items-center justify-evenly px-12">
         <div className=" text-2xl font-medium">
           {" "}
-          <h1 className="flex flex-row justify-center items-center tracking-wide">
+          <h1 className="flex flex-row justify-center items-center tracking-wide cursor-pointer">
             TAILSBUDDY <span className="-rotate-90 text-xs -ml-2 "> .COM </span>{" "}
           </h1>{" "}
         </div>
@@ -59,7 +59,7 @@ function Header() {
           <a href="#">GROUPS</a>
           <a href="#">CONTACT</a>
         </nav>
-        <button className="bg-white text-black text-xs font-bold py-[18px] px-6 hover:bg-yellow-400 hover:border-2 hover:text-white">
+        <button className="bg-white text-black text-xs font-bold py-[18px] px-6 hover:bg-yellow-400 hover:border-2 hover:text-white transition duration-300">
           {" "}
           Download <br /> App
         </button>
