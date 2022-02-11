@@ -5,14 +5,14 @@ import TrendingPdata from "../trendingProductData";
 
 function TrandingProducts() {
   return (
-    <div className="flex flex-col w-full justify-center items-center mt-5">
-      <div className="flex w-full lg:w-[1000px] items-center justify-between h-10 p-4">
+    <div className="flex flex-col w-full justify-center items-center mt-5 ">
+      <div className="flex  w-[1000px] items-center justify-between h-10 p-4">
         {" "}
         <h1 className="font-bold">Discover Trending Products </h1>{" "}
         <button className="btn2  yab ">View All</button>{" "}
       </div>
 
-      <div className="flex w-full lg:w-[1200px] items-center gap-3 overflow-x-scroll md:overflow-visible py-5 md:py-0 px-5">
+      <div className="flex  w-[1200px] items-center gap-3 ">
         {TrendingPdata.map((items) => {
           return (
             <div className="h-[306px] w-[186px]  mt-10  border-2 shadow-md bg-black rounded-b-3xl transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer ">
@@ -69,7 +69,7 @@ function TrandingProducts() {
         })}
       </div>
 
-      <div className="w-full md:w-9/12 flex justify-center items-center h-[200px] bg-gray-400  mt-10">
+      <div className="w-[1000px] flex justify-center items-center h-[200px] bg-gray-400  mt-10">
         <h1 className="text-2xl text-white"> BANNER SPACE</h1>
       </div>
     </div>

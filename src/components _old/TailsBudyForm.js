@@ -2,42 +2,42 @@ import React from "react";
 
 function TailsBudyForm() {
   return (
-    <div className="w-full bg-black lg:h-[390px] text-white flex  justify-center flex-col items-center mt-5">
+    <div className="w-full bg-black h-[390px] text-white flex  justify-center flex-col items-center mt-5">
 
-      <div className="flex flex-col md:flex-row hover:cursor-pointer">
+      <div className="flex flex-row hover:cursor-pointer">
         <div>
           <div className="border-b-[1px] py-3">
             {" "}
             <h1 className="capitalize  font-bold">Tails Buddy</h1>
           </div>
 
-          <div className="flex flex-row justify-start md:justify-start gap-10">
-            <div className="w-1/2 md:w-80 border-b-[1px] py-3">
-              <h1 className="">About tailsbuddy</h1>
+          <div className="flex flex-row gap-10">
+            <div className="w-80 border-b-[1px] py-3">
+              <h1>About tailsbuddy</h1>
             </div>{" "}
-            <div className="w-1/2 md:w-80 border-b-[1px] py-3">
+            <div className="w-80 border-b-[1px] py-3">
               <h1>Privacy Policy</h1>
             </div>
           </div>
 
-          <div className="flex flex-row gap-10 justify-start md:justify-start">
-            <div className="w-1/2 md:w-80 border-b-[1px] py-3">
+          <div className="flex flex-row gap-10">
+            <div className="w-80 border-b-[1px] py-3">
               <h1>Pet Adoption</h1>
             </div>{" "}
-            <div className="w-1/2 md:w-80 border-b-[1px] py-3">
+            <div className="w-80 border-b-[1px] py-3">
               <h1>About Our Ads</h1>
             </div>
           </div>
 
-          <div className="flex flex-row gap-10 justify-start md:justify-start">
-            <div className="w-1/2 md:w-80 border-b-[1px] py-3">
+          <div className="flex flex-row gap-10">
+            <div className="w-80 border-b-[1px] py-3">
               <h1>Pet Care Topic</h1>
             </div>{" "}
-            <div className="w-1/2 md:w-80 border-b-[1px] py-3">
+            <div className="w-80 border-b-[1px] py-3">
               <h1> Shelter and Rescue Login</h1>
             </div>
           </div>
-          <div className="w-1/2 py-5 justify-start md:justify-start">
+          <div className="py-5">
             {" "}
             <p>Sitemap</p>{" "}
           </div>
@@ -64,7 +64,7 @@ function TailsBudyForm() {
 
       </div>
 
-<div className="flex flex-col pt-5 sm:flex-row justify-between gap-20 text-gray-400 w-full px-5 md:px-36 pb-10"> <p className="text-center md:text">@2020 Tailsbuddy.com </p>
+<div className="flex justify-between gap-20 text-gray-400 w-full px-36"> <p>@2020 Tailsbuddy.com </p>
       <p>Integer gravida dui et rhoncus. Nulla laoreet vitae urna in luctus. Praesent et lacina ante. </p>
 
  </div>

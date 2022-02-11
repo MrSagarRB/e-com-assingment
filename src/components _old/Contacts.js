@@ -7,15 +7,15 @@ import MailIcon from "@material-ui/icons/Mail";
 function Contacts() {
   return (
     <div className=" flex w-full justify-center items-center mt-5"> 
-    <div className="flex flex-col lg:flex-row lg:justify-evenly w-full lg:w-[1000px] lg:h-[98px] bg-yellow-400 px-10 items-start pl-5 md:pl-0 md:items-center space-y-5 md:space-y-0 py-5 md:py-0">
-      <div className="flex  items-center justify-center gap-3 text-white font-semibold text-sm ">
+    <div className="flex justify-evenly w-[1000px] h-[98px] bg-yellow-400 px-10 items-center ">
+      <div className="flex  items-center justify-center gap-3 text-white font-semibold text-sm  ">
         <HeadsetMicIcon />
         <p>
-          Our Experts are available <br /> 9am to 9pm <br /> 7 Days{" "}
+          Our Experts are avilable <br /> 9am to 9pm <br /> 7 Days{" "}
         </p>
       </div>
 
-      <div className="flex items-center lg:justify-center gap-3 text-black font-semibold text-sm">
+      <div className="flex items-center justify-center gap-3 text-black font-semibold text-sm  ">
         <CallIcon />
         <p className="font-bold">Call: 9555482787</p>
       </div>

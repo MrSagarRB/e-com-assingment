@@ -4,7 +4,7 @@ import ReviewData from "../reviewData";
 function ProductReview() {
   return (
     <div className="flex flex-col w-full justify-center items-center mt-5 ">
-      <div className="flex w-full lg:w-[1000px] items-center justify-between h-10 p-4">
+      <div className="flex  w-[1000px] items-center justify-between h-10 p-4">
         {" "}
         <div>
           <h1 className="font-bold">Products Reviews </h1>
@@ -17,7 +17,7 @@ function ProductReview() {
           View All
         </button>{" "}
       </div>
-      <div className="py-10 w-full lg:w-[1000px] px-1 flex flex-row whitespace-nowrap overflow-x-auto  no-scrollbar   gap-5 ">
+      <div className="py-10 w-[1000px] px-1 flex flex-row whitespace-nowrap overflow-x-auto  no-scrollbar   gap-5 ">
         {ReviewData.map((items) => {
           return (
             <div className="h-[160px] w-[200px] text-center border-[1px] shadow-md transform hover:scale-110 transition duration-500 ease-in-out cursor-pointer">
@@ -29,7 +29,7 @@ function ProductReview() {
           );
         })}
       </div> 
-      <div className="w-full lg:w-9/12 flex justify-center items-center h-[140px] bg-gray-400 mt-5 ">
+      <div className="w-[1000px] flex justify-center items-center h-[140px] bg-gray-400 mt-5 ">
         <h1 className="text-2xl text-white"> BANNER SPACE</h1>
       </div>
     </div>
